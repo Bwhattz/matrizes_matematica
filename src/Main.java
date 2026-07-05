@@ -13,7 +13,7 @@ public class Main {
             System.out.print("{");
 
             for(int j = 0;j < matrizes[i].length; j++) {
-                matrizes[i][j] += 10;
+                matrizes[i][j] += 2;
                 System.out.print(matrizes[i][j]);
 
                 if(j < matrizes[i].length - 1) {
